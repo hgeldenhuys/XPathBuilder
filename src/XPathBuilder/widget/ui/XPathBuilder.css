@@ -1,0 +1,236 @@
+.attribute-span-view {
+    color: #0a3ec2;
+}
+
+span.operator-yes.operator-none {
+    color: #c6c6c6;
+}
+
+span.operator-yes {
+    font-weight: bold;
+}
+
+span.operator-and, span.operator-or {
+    color: #0e1550;
+}
+
+td.expression-cell {
+    padding: 3px;
+}
+
+span.not-yes {
+    color: #22ccff;
+    font-weight: bold;
+}
+
+span.not-no {
+    color: #daead7;
+}
+
+span.parenthesis-yes {
+    color: #111;
+    font-weight: bold;
+    font-size: 130%;
+    line-height: 95%;
+}
+
+span.parenthesis-no {
+    color: #daead7;
+    font-size: 130%;
+    line-height: 95%;
+}
+
+.expression-row {
+    padding: 3px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.filter-left-bracket {
+    border-bottom: 2px solid #2196f3;
+    border-left: 2px solid #2196f3;
+    width: 5px;
+}
+
+
+.filter-right-bracket {
+    border-bottom: 2px solid #2196f3;
+    border-right: 2px solid #2196f3;
+    width: 5px;
+}
+
+.bool-operator {
+    width: 31px;
+}
+
+table.expression-statement td {
+    padding: 0 1px;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+.attribute-div td {
+    vertical-align: top;
+}
+
+tr.attribute-div {
+    vertical-align: top;
+}
+
+.xpath-container table, .xpath-container table tr td {
+    padding: 0;
+}
+
+td.expression-function-cell a {
+    padding: 0 4px;
+}
+
+input.xpath-write {
+    margin: 0px;
+}
+
+span.attribute-span-view.xpath-focus.xpath-read {
+    padding: 0px 7px;
+    border: 2px solid #2196F3;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #2196F3;
+    color: #ececec;
+    height: 20px;
+    display: block;
+    white-space: nowrap;
+}
+
+span.attribute-span-view.xpath-focus.xpath-read.Entity,
+span.attribute-span-view.xpath-focus.xpath-read.ObjectReference,
+span.attribute-span-view.xpath-focus.xpath-read.ObjectReferenceSet{
+    border-radius: 8px 0px 0px 8px;
+}
+
+
+
+a.expression-fn.xpath-read:hover {
+    text-decoration: none;
+}
+
+input.xpath-write {
+    margin: 0px;
+    padding: 0px;
+    height: 18px;
+}
+
+a.add-expression {
+    height: 20px;
+    /* padding: 2px 0; */
+    width: 16px;
+    display: block;
+
+    background: #2196F3 url("XPathBuilder/widget/ui/filter.png") no-repeat;
+    background-position-y: center;
+    vertical-align: top;
+    border: 1px solid #2196f3;
+    content: '';
+    border-bottom: none;
+}
+
+span.continue-path-link {
+    height: 20px;
+    display: block;
+    width: 20px;
+    background: #2196F3 url("XPathBuilder/widget/ui/link.png") no-repeat;
+    background-position-y: center;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.infoTextNode {
+    font-family: monospace;
+    color: #9E9E9E;
+}
+
+input.xpath-write.xpath-focus.value-input[type=checkbox] {
+    height: 20px;
+    width: 20px;
+}
+
+a.expression-fn.xpath-read {
+    color: #009452;
+    height: 20px;
+    display: block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+table.expression-table {
+    margin: 2px 1px;
+}
+
+td.right-bracket {
+    border-right: 3px solid #2196f3;
+    border-bottom: 3px solid #2196f3;
+    width: 7px;
+}
+td.left-bracket {
+    border-left: 3px solid #2196f3;
+    border-bottom: 3px solid #2196f3;
+    width: 7px;
+}
+
+td.left-bracket div,
+td.right-bracket div {
+    border-top: 3px solid #2196f3;
+    width: 6px;
+}
+
+
+a.remove-constraint {
+    color: red;
+    font-size: 70%;
+    text-decoration: none;
+    cursor: default;
+}
+
+span.attribute-span-view.xpath-focus.xpath-read.NumberValue,
+span.attribute-span-view.xpath-focus.xpath-read.DecimalValue{
+    background: none;
+    border: none;
+    color: #3F51B5;
+    font-weight: bold;
+}
+
+select.attribute-select.xpath-focus.xpath-write {
+    max-width: 100px;
+}
+
+span.attribute-span-view.xpath-focus.xpath-read.StringValue {
+    background-color: transparent;
+    border: none;
+    color: #076d6d;
+    font-style: italic;
+}
+
+span.attribute-span-view.xpath-focus.xpath-read.NoValue {
+    border: 2px solid #d3dde4;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #d3dde4;
+    color: black;
+}
+
+span.attribute-span-view.xpath-focus.xpath-read.DateValue {
+    background-color: transparent;
+    color: #04045d;
+    border: none;
+}
+
+span.attribute-span-view {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="XPathBuilder.widget.XPathBuilder" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>XPathBuilder</name>
+    <description>The description of this widget.</description>
+
+    <icon>
+        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
+    </icon>
+
+    <properties>
+        <property key="entityNameAttribute" type="attribute">
+            <caption>Entity name</caption>
+            <category>Data</category>
+            <description>The name of the entity to browse from</description>
+            <attributeTypes>
+                <attributeType name="String"/>
+                <attributeType name="Enum"/>
+            </attributeTypes>
+        </property>
+        <property key="jsonAttribute" type="attribute">
+            <caption>Json</caption>
+            <category>Data</category>
+            <description>Stores the JSON attribute data</description>
+            <attributeTypes>
+                <attributeType name="String"/>
+            </attributeTypes>
+        </property>
+        <property key="xpathAttribute" type="attribute">
+            <caption>Xpath</caption>
+            <category>Data</category>
+            <description>Stores the XPath attribute</description>
+            <attributeTypes>
+                <attributeType name="String"/>
+            </attributeTypes>
+        </property>
+        <property key="notSymbol" type="translatableString" required="true">
+            <caption>Not</caption>
+            <category>Symbols</category>
+            <description>Not operator symbol</description>
+        </property>
+        <property key="andSymbol" type="translatableString" required="true">
+            <caption>and</caption>
+            <category>Symbols</category>
+            <description>And operator symbol</description>
+        </property>
+        <property key="orSymbol" type="translatableString" required="true">
+            <caption>or</caption>
+            <category>Symbols</category>
+            <description>Or operator symbol</description>
+        </property>
+        <property key="andorSymbol" type="translatableString" required="true">
+            <caption>andor</caption>
+            <category>Symbols</category>
+            <description>And/Or operator symbol</description>
+        </property>
+    </properties>
+</widget>
+
